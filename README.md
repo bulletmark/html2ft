@@ -1,6 +1,5 @@
 ## HTML2FT - Command line tool to convert HTML to FastHTML Python FT components
 [![PyPi](https://img.shields.io/pypi/v/html2ft)](https://pypi.org/project/html2ft/)
-[![AUR](https://img.shields.io/aur/version/html2ft)](https://aur.archlinux.org/packages/html2ft/)
 
 [`html2ft`][html2ft] is a command line tool to convert [HTML][html] to
 [FastHTML][fasthtml] Python [FT components][fasthtml_comp]. It is a command line
@@ -28,9 +27,7 @@ options:
 
 ## Installation and Upgrade
 
-Python 3.10 or later is required. Arch Linux users can install [`html2ft`
-from the AUR](https://aur.archlinux.org/packages/html2ft) and skip this
-section.
+Python 3.10 or later is required.
 
 The easiest way to install [`html2ft`][html2ft] is to use [`uv tool`][uvtool]
 (or [`pipx`][pipx] or [`pipxu`][pipxu]) which installs [`html2ft` from
