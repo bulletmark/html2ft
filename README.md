@@ -27,11 +27,17 @@ options:
 
 ## Installation and Upgrade
 
-Python 3.10 or later is required.
+Python 3.10 or later is required. You can run [`htmt2ft`][html2ft] most easily
+using [`uvx`][uvx]. Just make sure [`uv`][uv] is installed and then run the
+following command which will install [`html2ft` from PyPi][html2ft_py] "on the fly" and will
+then run it immediately:
 
-The easiest way to install [`html2ft`][html2ft] is to use [`uv tool`][uvtool]
-(or [`pipx`][pipx] or [`pipxu`][pipxu]) which installs [`html2ft` from
-PyPi][html2ft_py]. To install:
+```sh
+$ uvx html2ft [myfile.html]
+```
+
+Or install [`html2ft`][html2ft] formally on your system using using [`uv
+tool`][uvtool] (or [`pipx`][pipx] or [`pipxu`][pipxu]). To install:
 
 ```sh
 $ uv tool install html2ft
@@ -68,6 +74,8 @@ FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License at
 [fasthtml_comp]: https://www.fastht.ml/docs/explains/explaining_xt_components.html
 [pipx]: https://github.com/pypa/pipx
 [pipxu]: https://github.com/bulletmark/pipxu
-[uvtool]: https://docs.astral.sh/uv/guides/tools/#installing-tools
+[uv]: https://docs.astral.sh/uv/
+[uvtool]: https://docs.astral.sh/uv/guides/tools/#using-tools
+[uvx]: https://docs.astral.sh/uv/guides/tools/#using-tools
 
 <!-- vim: se ai syn=markdown: -->
